@@ -10,3 +10,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-size: var(--ft-body-def);
+  font-family: arial, sans-serif;
+  color: #202124;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
