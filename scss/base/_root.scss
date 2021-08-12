@@ -1,0 +1,9 @@
+@use '../abstracts/' as *;
+
+:root {
+  @each $element, $font in $font-size {
+    @each $size, $value in $font {
+      --ft-#{$element}-#{$size}: #{$value};
+    }
+  }
+}
