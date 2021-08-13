@@ -3,6 +3,25 @@
   --ft-nav-rt-def: 0.813rem;
 }
 
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 25rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 *,
 *::before,
 *::after {
