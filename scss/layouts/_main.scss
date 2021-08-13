@@ -1,0 +1,21 @@
+@use '../base/' as *;
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 5.75rem;
+  max-height: 18.125rem;
+  height: calc(100% - 35rem);
+  &-container {
+    max-height: 5.75rem;
+    margin-top: auto;
+    height: 100%;
+    img {
+      display: block;
+      max-width: 100%;
+      object-fit: contain;
+      object-position: center bottom;
+    }
+  }
+}

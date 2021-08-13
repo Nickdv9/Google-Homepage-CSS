@@ -97,3 +97,23 @@ a:hover {
 .nav-rt .shade:hover {
   background-color: rgba(60, 64, 67, 0.08);
 }
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 5.75rem;
+  max-height: 18.125rem;
+  height: calc(100% - 35rem);
+}
+.top-container {
+  max-height: 5.75rem;
+  margin-top: auto;
+  height: 100%;
+}
+.top-container img {
+  display: block;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+}
