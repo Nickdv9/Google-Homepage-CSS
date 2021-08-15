@@ -11,9 +11,10 @@ html {
   min-width: 25rem;
 }
 
-body {
+.base {
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 main {
