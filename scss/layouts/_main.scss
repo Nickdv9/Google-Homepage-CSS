@@ -7,15 +7,109 @@
   min-height: 5.75rem;
   max-height: 18.125rem;
   height: calc(100% - 35rem);
+
   &-container {
     max-height: 5.75rem;
     margin-top: auto;
     height: 100%;
+
     img {
       display: block;
       max-width: 100%;
       object-fit: contain;
       object-position: center bottom;
+    }
+  }
+}
+
+.mid {
+  padding: 1.25rem;
+  max-height: 10rem;
+
+  &-container {
+    width: auto;
+    max-width: 36.5rem;
+    margin-inline: auto;
+    padding-top: 0.375rem;
+
+    .searchbox {
+      width: inherit;
+      max-width: inherit;
+      margin: inherit;
+      display: flex;
+      border: 1px solid #dfe1e5;
+      box-shadow: none;
+      box-sizing: content-box;
+      border-radius: 24px;
+      height: 2.75rem;
+
+      &-container {
+        flex: 1;
+        display: flex;
+        padding: 0.313rem 0.5rem 0 1rem;
+        padding-left: 0.875rem;
+        box-sizing: border-box;
+      }
+
+      .search-icon {
+        display: flex;
+        align-items: center;
+        padding-right: 0.813rem;
+        margin-top: -0.313rem;
+
+        .icon {
+          margin: auto;
+          line-height: normal;
+
+          .search-image {
+            margin-top: 0.188rem;
+            color: #9aa0a6;
+            height: 1.25rem;
+            width: 1.25rem;
+            display: inline-block;
+            fill: currentColor;
+            line-height: 1.5rem;
+
+            svg {
+              display: block;
+              height: 100%;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .inputarea {
+        display: flex;
+        flex: 1;
+        flex-wrap: wrap;
+
+        &-container {
+          color: transparent;
+          flex: 100%;
+          white-space: pre;
+          height: 2.125rem;
+        }
+        .input {
+          background-color: transparent;
+          border: none;
+          color: rgba(0, 0, 0, 0.87);
+          word-wrap: break-word;
+          outline: none;
+          display: flex;
+          flex: 100%;
+          margin-top: -2.313rem;
+          height: 2.125rem;
+          font-size: 1rem;
+          font-family: inherit;
+        }
+      }
+
+      &:hover {
+        background-color: #fff;
+        box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+        border-color: rgba(223, 225, 229, 0);
+      }
     }
   }
 }
