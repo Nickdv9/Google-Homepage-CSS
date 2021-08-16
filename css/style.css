@@ -45,6 +45,29 @@ a:hover {
   text-decoration: underline;
 }
 
+.btn-2, .btn-1 {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0.688rem 0.25rem;
+  padding: 0 1rem;
+  line-height: 1.688rem;
+  height: 2.25rem;
+  min-width: 3.375rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.btn-2:hover, .btn-1:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
 .nav {
   display: flex;
   height: 3.75rem;
@@ -199,4 +222,11 @@ a:hover {
   background-color: #fff;
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
   border-color: rgba(223, 225, 229, 0);
+}
+.mid-container .btn-area {
+  height: 70px;
+  padding-top: 18px;
+}
+.mid-container .btn-area-center {
+  text-align: center;
 }

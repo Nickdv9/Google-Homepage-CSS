@@ -111,5 +111,12 @@
         border-color: rgba(223, 225, 229, 0);
       }
     }
+    .btn-area {
+      height: 70px;
+      padding-top: 18px;
+      &-center {
+        text-align: center;
+      }
+    }
   }
 }
