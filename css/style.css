@@ -234,3 +234,37 @@ a:hover {
 .bottom {
   flex-grow: 1;
 }
+
+.footer {
+  background: #f2f2f2;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 1.25rem;
+}
+.footer-container-lt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  min-width: 30%;
+  order: 1;
+}
+.footer-container-rt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  min-width: 30%;
+  order: 3;
+}
+.footer-container .link {
+  color: #70757a;
+  display: block;
+  padding: 0.938rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.footer-container .link:hover {
+  text-decoration: underline;
+}
