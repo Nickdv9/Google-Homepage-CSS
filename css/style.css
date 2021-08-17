@@ -103,6 +103,7 @@ header {
 }
 .nav-rt .content a {
   padding-left: 0.938rem;
+  color: rgba(0, 0, 0, 0.87);
 }
 .nav-rt .apps-menu {
   padding: 0.25rem;
