@@ -15,6 +15,13 @@
       order: 1;
     }
 
+    &-mid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      order: 2;
+    }
+
     &-rt {
       display: flex;
       flex-wrap: wrap;
@@ -33,6 +40,16 @@
 
     .link:hover {
       text-decoration: underline;
+    }
+
+    .leaf {
+      height: 0.875rem;
+      margin-right: 0.375rem;
+    }
+
+    .carbon-text {
+      white-space: nowrap;
+      vertical-align: top;
     }
   }
 }
