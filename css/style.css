@@ -271,6 +271,9 @@ header {
   justify-content: space-between;
   order: 2;
 }
+.footer-container-mid img {
+  vertical-align: baseline;
+}
 @media (max-width: 75rem) {
   .footer-container-mid {
     order: 0;
