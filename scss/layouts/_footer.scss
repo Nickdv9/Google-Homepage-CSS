@@ -1,3 +1,5 @@
+@use '../abstracts/' as *;
+
 .footer {
   background: #f2f2f2;
 
@@ -6,6 +8,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0 1.25rem;
+
+    @include media(flex-link) {
+      justify-content: space-evenly;
+    }
 
     &-lt {
       display: flex;
@@ -20,6 +26,12 @@
       flex-wrap: wrap;
       justify-content: space-between;
       order: 2;
+
+      @include media(flex-link) {
+        order: 0;
+        width: 100%;
+        justify-content: center;
+      }
     }
 
     &-rt {
